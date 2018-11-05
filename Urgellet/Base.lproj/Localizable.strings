@@ -1,0 +1,62 @@
+/*
+ Localizable.strings
+ Urgellet
+ 
+ Created by Urgellet on 27/2/17.
+ */
+
+"Inici" = "Codi QR";
+"He acabat de reciclar" = "He acabat de reciclar";
+"Llegeix el codi QR del contenidor" = "Llegeix el codi QR de l’adhesiu per reciclar";
+"Notificacions" = "Notificacions";
+"Incidencies" = "Incidències";
+"Tornar a l'inici" = "Tornar a l'inici";
+"Has llençat la deixalla orgànica correctament" = "Has llençat fracció orgànica correctament";
+"Salari" = "Saldo";
+"Saldo inicial" = "Bonificació inicial";
+"Saldo actual" = "Bonificació actual";
+"Localitzacio" = "Localització";
+"RespostaDefecteOrganica" = "Moltes gràcies, has llençat fracció orgànica.";
+"RespostaDefecteResta" = "Moltes gràcies, has llençat resta.";
+"RespostaDefectePaper" = "Moltes gràcies, has llençat paper/cartró.";
+"RespostaDefecteEnvasos" = "Moltes gràcies, has llençat envasos.";
+"RespostaDefecteVidre" = "Moltes gràcies, has llençat vidre.";
+"RespostaDefecteIncidencia" = "Has registrar la incidència correctament";
+"Fes una fotografia de la incidencia" = "Fes una fotografia de la incidencia";
+"Torna a fer la foto" = "Torna a fer la foto";
+"Enviar la foto" = "Enviar la foto";
+"Llegeix el codi QR del contenidor per ajudar-nos a detectar incidències" = "Detecta incidències als contenidors llegint el codi QR de l'adhesiu.";
+
+"Orgànica" = "Orgànica";
+"Resta" = "Resta";
+"Paper" = "Paper";
+"Envasos" = "Envasos";
+"Vidre" = "Vidre";
+"Reciclar" = "Reciclar";
+
+"RespostaDefecte" = "Moltes gràcies, has llençat deixalla correctament.";
+
+"Introdueix el teu número de telèfon" = "Introdueix el teu número de telèfon i aconsegueix descomptes";
+"Posa el codi que has rebut per SMS" = "Escriu el codi rebut via SMS per començar.";
+"Posa el codi" = "Posa el codi";
+"Posa el teu telèfon" = "Posa el teu telèfon";
+
+"Gràcies pel teu avís, la incidència s'ha registrat correctament." = "Gràcies pel teu avís, la incidència s'ha registrat correctament.";
+
+"DescompteSetmanal" = "Aquesta setmana has aconseguit una bonificació de %@";
+
+"Benvingut a Urgellet Recicla Link!" = "Benvingut a Urgellet Recicla Link!";
+
+"No tens notificacions" = "No tens notificacions";
+
+"No tens conexió. Probarem d'enviar-ho més tard" = "No tens connexió. Provarem d'enviar-ho més tard";
+
+/*
+ Orgànica: Moltes gràcies, has llençat la deixalla orgànica.
+ Vidre: Moltes gràcies, has llençat vidre.
+ Resta: Moltes gràcies, has llençat resta.
+ Envasos: Moltes gràcies, has llençat envasos.
+ Paper-cartó: Moltes gràcies, has llençat paper/cartró.
+ */
+
+

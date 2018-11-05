@@ -1,0 +1,64 @@
+PODS:
+  - APESuperHUD (2.0.1)
+  - PDFReader (2.5.0)
+  - ReachabilitySwift (3)
+  - Realm (3.11.1):
+    - Realm/Headers (= 3.11.1)
+  - Realm/Headers (3.11.1)
+  - RealmSwift (3.11.1):
+    - Realm (= 3.11.1)
+  - SwiftEventBus (2.2.0)
+  - SwiftyJSON (4.1.0)
+  - SwiftyTimer (2.0.0)
+  - TTGSnackbar (1.7.3)
+
+DEPENDENCIES:
+  - APESuperHUD (from `https://github.com/apegroup/APESuperHUD.git`, tag `2.0.1`)
+  - PDFReader (= 2.5.0)
+  - ReachabilitySwift (= 3)
+  - RealmSwift
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`, tag `2.2.0`)
+  - SwiftyJSON (= 4.1.0)
+  - SwiftyTimer (= 2.0.0)
+  - TTGSnackbar (= 1.7.3)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PDFReader
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - SwiftyJSON
+    - SwiftyTimer
+    - TTGSnackbar
+
+EXTERNAL SOURCES:
+  APESuperHUD:
+    :git: https://github.com/apegroup/APESuperHUD.git
+    :tag: 2.0.1
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 2.2.0
+
+CHECKOUT OPTIONS:
+  APESuperHUD:
+    :git: https://github.com/apegroup/APESuperHUD.git
+    :tag: 2.0.1
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+    :tag: 2.2.0
+
+SPEC CHECKSUMS:
+  APESuperHUD: 18ce2f9f114dd38d8fef5a6831e71ae9634cfc26
+  PDFReader: 0f7293ecad9fe6da1119cf7ba7589b4126c256a0
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
+  RealmSwift: c9580133e73ef40ed340401af2dbc9a5790dfea7
+  SwiftEventBus: 39cde57d1881f9d6e8afb1f9e41f973e331bf847
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+  TTGSnackbar: a66e929fd17d662152ec0964990a86e966310edb
+
+PODFILE CHECKSUM: 28d98f91c496f3a058289893baf82cceb7e232e1
+
+COCOAPODS: 1.5.0
