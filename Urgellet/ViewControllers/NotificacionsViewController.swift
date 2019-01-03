@@ -76,7 +76,7 @@ class NotificacionsViewController: UIViewController, UITableViewDelegate, UITabl
     override func viewWillAppear(_ animated: Bool) {
         self.tabBarController?.tabBar.items?[1].badgeValue = nil   // this will add "1" badge to your fifth tab bar item
         
-        //TODO GET NOTIFICATIONS
+        //TODO: sync from server Notificacion class array and save it on Realm Datamanager and call self.tableView.reloadData()
         
     }
     

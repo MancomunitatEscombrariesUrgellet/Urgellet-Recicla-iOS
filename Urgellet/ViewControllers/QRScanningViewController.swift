@@ -232,7 +232,7 @@ class QRScanningViewController: UIViewController, AVCaptureMetadataOutputObjects
         params["idVivienda"] = UserDefaults.standard.value(forKey: "idVivienda") as AnyObject?
         print(params)
         
-        //TODO REGISTRAR
+        //TODO: create Pendent Object and send to server and call showThanks method and close APESuperHUD
     }
     
     private func showThanks(responseCompleteJSON: [String: Any]?, nfc: Int, registered: Bool) {

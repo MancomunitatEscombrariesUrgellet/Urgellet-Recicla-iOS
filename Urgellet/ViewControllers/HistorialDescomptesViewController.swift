@@ -84,6 +84,6 @@ class HistorialDescomptesViewController: UIViewController, UITableViewDelegate, 
     
         APESuperHUD.show(style: .loadingIndicator(type: .standard), title: nil, message: "")
 
-        //TODO GET RECIBO
+        //TODO get Quarter Discount PDF from server with Periodo class using indexPath and show it on PDFViewController and close APESuperHUD
     }
 }

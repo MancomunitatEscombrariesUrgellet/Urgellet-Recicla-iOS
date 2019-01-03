@@ -41,14 +41,15 @@ extension UserData {
         
         let realm = try! Realm()
         
-        //TODO GET INFO
+        //TODO: sync from server User class save data on Realm Database
+        //TODO: call self.getUserData() and self.getElementos() and self.getUserDataDeixalleria()
     }
     
     func getUserData() {
         
         let realm = try! Realm()
 
-        //TODO GET SALDO
+        //TODO: sync from server Salari class located on Salari.swift and save data on Realm Database
         
         var prevCountNoti = 0
         let prevNoti = realm.objects(Notificacion.self).count
@@ -56,15 +57,16 @@ extension UserData {
             prevCountNoti = prevNoti
         }
         
-        //TODO GET NOTIIFICATIONS
+        //TODO: sync from server Notificacion class array and save data on Realm Database
+        //TODO update notification badge using SwiftEventBus.post("updateBadge", sender: String(badgeValue))
     }
     
     func getUserDataDeixalleria(){
-        //TODO GET DEIXALLERIA
+        //TODO: sync from server SalariDeixalleria class located on Salari.swift and save data on Realm Database
     }
     
     func getElementos(){
         
-        //TOOD GET ELEMENTOS
+        //TODO: sync from server Elemento class array and save data on Realm Database and call SwiftEventBus.post("syncSuccess") on success
     }
 }

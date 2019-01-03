@@ -70,7 +70,7 @@ class Singleton: NSObject {
             
             if(user.count > 0){
                 
-                //TODO REGISTRAR
+                //TODO: create IncidenciaPendent Object and send to server and delete it on success
             }
         }
     }
@@ -81,7 +81,7 @@ class Singleton: NSObject {
         let pendents = realm.objects(Pendent.self)
         let pendent = pendents.first!
        
-        //TODO REGISTRAR
+        //TODO: create Pendent Object and send to server and delete it on success
         
     }
 }

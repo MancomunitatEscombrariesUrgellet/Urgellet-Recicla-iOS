@@ -53,7 +53,7 @@ class IncidenciesViewController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func getActuaciones(){
-        //TODO GET ACTUACIONES
+        //TODO: sync from server Actuation class array and save it on Realm Database
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -99,7 +99,7 @@ class IncidenciesViewController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func postActuacion(actuacion: Actuacion){
-        //TODO REGISTRAR
+        //TODO: send to server the register and show IncidenciaSuccessViewController
     }
         
     /*

@@ -158,7 +158,7 @@ class LoginViewController: UIViewController, UserData {
     fileprivate func sendPhone(_ params: [String : AnyObject]) {
         savedPhone = phoneTextField.text!
         
-        //TODO LOGIN
+        //TODO: do login sending phone number to server and trigger afterPostTelf and initSmsTimer methods and close APESuperHUD
     }
     
     @IBAction func fetAction(_ sender: Any) {
@@ -174,7 +174,7 @@ class LoginViewController: UIViewController, UserData {
         else{
             
             if Int(phoneTextField.text!) != nil{
-                //TODO SEND CODE
+                //TODO: send sms code and get token and receive User class and save it on Realm Database and close APESuperHUD
             }
         }
     }

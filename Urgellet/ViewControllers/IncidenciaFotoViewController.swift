@@ -212,7 +212,7 @@ class IncidenciaFotoViewController: UIViewController {
         let imageReady = UIImageJPEGRepresentation(resizedImage!, 1)
 
         if(user.count > 0){
-            //TODO REGISTRAR
+            //TODO get Quarter Discount PDF from server with Periodo class using indexPath and show it on PDFViewController and close APESuperHUD
         }
     }
 
